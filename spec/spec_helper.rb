@@ -23,5 +23,6 @@ VCR.configure do |c|
   c.hook_into :webmock
 end
 
+$debug = true
 
 require 'rss_to_email'
