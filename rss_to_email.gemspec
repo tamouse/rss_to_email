@@ -26,6 +26,12 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'webmock'
   spec.add_development_dependency 'vcr'
   spec.add_development_dependency 'guard'
+  spec.add_development_dependency 'guard-rspec'
+  spec.add_development_dependency 'guard-livereload'
+  spec.add_development_dependency 'guard-cucumber'
+  spec.add_development_dependency 'guard-rake'
+  spec.add_development_dependency 'guard-bundler'
+  spec.add_development_dependency 'guard-shell'
   spec.add_dependency('methadone', '~> 1.2.4')
   spec.add_dependency('nori')
   spec.add_dependency('mail')
