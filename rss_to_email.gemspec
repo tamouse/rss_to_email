@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = RssToEmail::VERSION
   spec.authors       = ["Tamara Temple"]
   spec.email         = ["tamouse@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = RssToEmail::DESCRIPTION
+  spec.summary       = RssToEmail::SUMMARY
+  spec.homepage      = RssToEmail::HOMEPAGE
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -22,6 +22,9 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
   spec.add_development_dependency('rdoc')
   spec.add_development_dependency('aruba')
-  spec.add_development_dependency('rake', '~> 0.9.2')
+  spec.add_development_dependency('rspec')
   spec.add_dependency('methadone', '~> 1.2.4')
+  spec.add_dependency('nori')
+  spec.add_dependency('mail')
+  
 end

@@ -1,6 +1,6 @@
 # RssToEmail
 
-TODO: Write a gem description
+Convert RSS feeds into email and send them to a user
 
 ## Installation
 
