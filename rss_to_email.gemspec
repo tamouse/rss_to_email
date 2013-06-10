@@ -23,6 +23,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency('rdoc')
   spec.add_development_dependency('aruba')
   spec.add_development_dependency('rspec')
+  spec.add_development_dependency 'webmock'
+  spec.add_development_dependency 'vcr'
   spec.add_dependency('methadone', '~> 1.2.4')
   spec.add_dependency('nori')
   spec.add_dependency('mail')
